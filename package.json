@@ -1,0 +1,38 @@
+{
+  "name": "npm-verified",
+  "version": "0.0.1",
+  "description": "Verify published packages against their source code.",
+  "author": "Ivan Babak <babak.john@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "bin": {
+    "npm-verified": "lib/cli.js"
+  },
+  "scripts": {},
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "npm",
+    "verify",
+    "verified"
+  ],
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.14.1",
+    "cross-spawn": "^6.0.4",
+    "debug": "^3.1.0",
+    "diff": "^3.4.0",
+    "dir-compare": "^1.4.0",
+    "download-npm-package": "^3.1.12",
+    "mkdirp": "^0.5.1",
+    "npm-package-arg": "^6.0.0",
+    "read-package-tree": "^5.1.6",
+    "rimraf": "^2.6.2",
+    "targz": "^1.0.1",
+    "tmp": "0.0.33"
+  },
+  "devDependencies": {
+    "prettier": "^1.10.2"
+  }
+}
