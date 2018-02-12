@@ -1,9 +1,10 @@
 {
   "name": "npm-verified",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Verify published packages against their source code.",
   "author": "Ivan Babak <babak.john@gmail.com>",
   "license": "MIT",
+  "repository": "sompylasar/npm-verified",
   "main": "lib/index.js",
   "bin": {
     "npm-verified": "lib/cli.js"
