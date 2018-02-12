@@ -1,6 +1,6 @@
 {
   "name": "npm-verified",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Verify published packages against their source code.",
   "author": "Ivan Babak <babak.john@gmail.com>",
   "license": "MIT",
